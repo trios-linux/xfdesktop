@@ -8,6 +8,7 @@
 
 # Set the package version and name:
 NAME=xfdesktop
+NAME_DEBIAN=xfdesktop4
 VER=4.12.0
 PKG=$NAME-$VER.tar.bz2
 
@@ -75,5 +76,5 @@ then
 	else
 		echo "$PKG found, skipping download"
 	fi
-	tar xvjf $PKG --strip 1 && mv -f -v $PKG ../$NAME4\_$VER.orig.tar.bz2 && rm -f ./README.md && rm -f -- "$0"
+	tar xvjf $PKG --strip 1 && mv -f -v $PKG ../$NAME_DEBIAN\_$VER.orig.tar.bz2 && rm -f ./README.md && rm -f -- "$0"
 fi
