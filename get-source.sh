@@ -9,7 +9,7 @@
 # Set the package version and name:
 NAME=xfdesktop
 NAME_DEBIAN=xfdesktop4
-VER=4.12.0
+VER=4.12.1
 PKG=$NAME-$VER.tar.bz2
 
 
