@@ -1,3 +1,7 @@
+xfdesktop4 (4.12.1-trios2) mia; urgency=low
+
+ * bump test Dragan
+
 xfdesktop4 (4.12.1-trios1) mia; urgency=low
 
   * New upstream release.
